@@ -1,5 +1,5 @@
 const countdownBox = document.getElementById("countdown-container");
-const targetDate = new Date("March 10, 2026 14:06:00").getTime();
+const targetDate = new Date("May 14, 2026 00:00:00").getTime();
 let particleInterval;
 let stopAllParticles = false;
 
@@ -158,4 +158,5 @@ window.addEventListener('mousemove', (e) => {
 window.addEventListener('touchmove', (e) => {
     countdownBox.style.setProperty('--cursor-x', e.touches[0].clientX + 'px');
     countdownBox.style.setProperty('--cursor-y', e.touches[0].clientY + 'px');
+
 });
