@@ -22,7 +22,7 @@ const friendsWishes = [
     },
     { 
         name: "Anton", 
-        wish: "Happy birthday Vallen! Makin sukses dan bahagia ya!" 
+        wish: "hepi birthday palengggg semoga apa yang kau inginkan tercapai, semoga di umur yang baru ini makin makin semuanya (hal baik), semoga bahagia selalu sama deno, jangan larang larang deno mancing ama gua karena kita akan selalu MANCINGGGG" 
     },
     { 
         name: "Cillak", 
