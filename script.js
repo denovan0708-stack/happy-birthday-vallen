@@ -1,5 +1,5 @@
 const countdownBox = document.getElementById("countdown-container");
-const targetDate = new Date("May 14, 2026 00:00:01").getTime();
+const targetDate = new Date("May 13, 2026 00:00:01").getTime();
 let particleInterval;
 let stopAllParticles = false;
 
@@ -77,7 +77,7 @@ const timer = setInterval(() => {
 
 const textDisplay = document.getElementById("text");
 const story = [
-    "Hey, Vallen.", "Here is something for you.",
+    "Hi, Vallen.", "Here is something for you.",
     "There are so many days in a lifetime...", "and this one matters a little more.",
     "Because exactly <b>21 years ago</b>,<br>someone special was born.",
     "Someone named<br><b>Vallen Kalonia</b>.", "And today… we celebrate you!",
