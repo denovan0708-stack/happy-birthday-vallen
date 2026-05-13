@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;600&family=Alice&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body id="body-bg" class="site-start">
+<body id="body-bg">
 
     <div id="countdown-container">
         <h2 id="countdown-title">The surprise starts in...</h2>
@@ -21,30 +21,31 @@
 
     <div id="black-overlay"></div>
 
-    <div id="page" style="display: none;">
+    <div id="page">
         <div id="intro-section">
             <div id="gift-icon">🎁</div>
-            <p id="hint">Tap the gift to open</p>
+            <p id="hint">It won't open without your touches</p>
         </div>
 
-<div id="message-section" style="display: none;">
-    <div id="text-container">
-        <h1 id="text" class="text-hidden"></h1>
-    </div>
-    <div id="cake-wrapper">
-        <div id="cake">🎂</div>
-    </div>
-    <button id="replayBtn" class="btn-ivory" style="display: none;">
-        Begin Again
-    </button>
-</div>
+        <div id="message-section" style="display: none;">
+            <div id="text-wrapper">
+                <h1 id="text" class="text-hidden"></h1>
+            </div>
 
-    </div>
-    <button id="replayBtn" class="btn-ivory" style="display: none;">
-        Begin Again
-    </button>
-</div>
+            <div id="cake-wrapper">
+                <div id="cake">🎂</div>
+            </div>
 
+            <div id="friends-wishes-container" style="display: none;">
+                <div class="wishes-content-wrapper">
+                    <h3 class="wish-title">From the People Who Cherish You</h3>
+                    <div id="wishes-grid"></div>
+                    <button id="nextToIvoryBtn" class="btn-ivory" style="display: inline-block; opacity: 1; position: relative; bottom: 0; margin-top: 20px;">My Turn</button>
+                </div>
+            </div>
+
+            <button id="replayBtn" class="btn-ivory">Start Over</button>
+        </div>
     </div>
 
     <audio id="bgMusic" loop>
